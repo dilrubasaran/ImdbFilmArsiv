@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2d2d2d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1a1a1a;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-image {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.cover-image {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    .movie-card {
+    background-color: #3a3a3a;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-image img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.movie-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .movie-info h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .movie-info p {
+        margin: 5px 0;
+        font-size: 14px;
+        color: #bbb;
+    }
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.tab {
+    cursor: pointer;
+    color: #bbb;
+    font-size: 14px;
+}
+
+    .tab:hover, .tab.active {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+.about {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+}
+

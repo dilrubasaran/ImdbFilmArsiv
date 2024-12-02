@@ -1,0 +1,27 @@
+﻿@model MovieViewModel
+
+    @{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+<div class="container">
+    <div class="banner-container">
+   
+    <img src="@Model.ImagePathBanner" alt="Banner" class="banner-image" />
+
+    <img src="@Model.ImagePathCover" alt="Cover" class="cover-image" />
+</div>
+        <div class="movie-info">
+            <h1>@Model.Title</h1>
+            <p>@Model.Year | @Model.Duration+"Minutes" | @Model.Category</p>
+        </div>
+    <div class="tabs">
+        <div class="tab active">About Movie</div>
+        <div class="tab">Reviews</div>
+        <div class="tab">Cast</div>
+    </div>
+        <div class="about">
+            <p>@Model.Description</p>
+        </div>
+    </div>
+</div>
